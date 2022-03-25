@@ -1,0 +1,10 @@
+.bike-container img{
+    width: 300px;
+    height: 300px;
+}
+.bike-container{
+    background-color:#E0DFE1;
+    height: 490px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
