@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, resetCart, choseRandom }) => {
 
     return (
         <div className='cart'>
@@ -11,6 +11,8 @@ const Cart = ({ cart }) => {
                     <h3 key={item.id}>{item.name}</h3>
                 )))
             }
+            <button onClick={() => choseRandom}>Select one for me</button> <br />
+            <button onClick={resetCart}>Chose Again</button>
         </div>
     );
 };
