@@ -18,10 +18,9 @@ const Shop = () => {
     const resetCart = () => {
         setcart([]);
     }
-    const choseRandom = (bike) => {
-        // let randomItem = cart[Math.floor(Math.random() * cart.length)];
-        // setcart(randomItem)
-        console.log('randomItem');
+    const choseRandom = () => {
+        const randomItem = [cart[Math.floor(Math.random() * cart.length)]];
+        setcart(randomItem)
     }
     useEffect(() => {
         fetch("products.json")
