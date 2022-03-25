@@ -3,8 +3,21 @@
     height: 300px;
 }
 .bike-container{
-    background-color:#E0DFE1;
-    height: 490px;
+    background-color:white;
+    height: 500px;
     border: 2px solid black;
     border-radius: 8px;
+    position: relative;
+}
+.btn{
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-text{
+    margin-right: 15px;
 }

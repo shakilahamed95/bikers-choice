@@ -11,7 +11,7 @@ const Shop = () => {
     }, [])
     console.log(bikes);
     return (
-        <div>
+        <div className='shop-container'>
             <div className="bikes-container">
                 {
                     bikes.map(bike => <Bike
@@ -19,6 +19,9 @@ const Shop = () => {
                         bike={bike}
                     ></Bike>)
                 }
+            </div>
+            <div>
+                <h1>this is from cart</h1>
             </div>
         </div>
     );
