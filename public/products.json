@@ -1,0 +1,56 @@
+[
+  {
+    "id": "101",
+    "name": "Bajaj Pulsar 150",
+    "price": 180300,
+    "img": "https://i.ndtvimg.com/i/2018-04/2018-bajaj-pulsar-150_827x510_51524039199.jpg"
+  },
+  {
+    "id": "102",
+    "name": "Bajaj Discover 125",
+    "price": 136000,
+    "img": "https://images-eu.ssl-images-amazon.com/images/I/41vF%2BxDkRtL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg"
+  },
+  {
+    "id": "103",
+    "name": "Bajaj Avenger 160 ABS",
+    "price": 230500,
+    "img": "https://erokomari.com/wp-content/uploads/2021/05/Bajaj-Avenger-160-ABS-600x400.png"
+  },
+  {
+    "id": "104",
+    "name": "Hero Splendor Plus",
+    "price": 99490,
+    "img": "https://c.ndtvimg.com/2020-08/1cr5ul5s_bs6-hero-splendor-plus_625x300_25_August_20.jpg"
+  },
+  {
+    "id": "105",
+    "name": "Honda Livo",
+    "price": 110900,
+    "img": "https://media.zigcdn.com/media/model/2020/Jul/front-left-view-1077024758_930x620.jpg"
+  },
+  {
+    "id": "106",
+    "name": "Honda CB150R Streetfire",
+    "price": 380300,
+    "img": "https://img.indianautosblog.com/2018/07/2018-Honda-CB150R-StreetFire-front-right-quarter.png"
+  },
+  {
+    "id": "107",
+    "name": "TVS Apache RTR 160",
+    "price": 215000,
+    "img": "https://imgd.aeplcdn.com/1200x900/bw/models/tvs-apache-rtr-160-front-disc--abs--bs-vi20200122150111.jpg"
+  },
+  {
+    "id": "108",
+    "name": "TVS Max 125",
+    "price": 132000,
+    "img": "https://asiabazars.com/wp-content/uploads/2021/05/Untitjkoled-1.jpg"
+  },
+  {
+    "id": "109",
+    "name": "TVS Metro Plus",
+    "price": 109000,
+    "img": "https://www.bdstall.com/asset/product-image/giant_85759.jpg"
+  }
+]
