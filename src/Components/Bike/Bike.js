@@ -4,8 +4,10 @@ import React from 'react';
 import './Bike.css'
 
 const Bike = (props) => {
-    console.log(props);
+    const { handleAddToCart } = props
     const { name, price, img } = props.bike
+
+
 
     return (
         <div className='bike-container'>
@@ -14,7 +16,7 @@ const Bike = (props) => {
                 <h3>{name}</h3>
                 <h3>Price Tk: {price}</h3>
             </div>
-            <button className='btn'>
+            <button onClick={() => handleAddToCart(props.bike)} className='btn'>
                 <p className='btn-text'>Add to cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
