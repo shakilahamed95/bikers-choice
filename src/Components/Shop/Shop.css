@@ -1,7 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 5fr 1fr;
-    background-color: #E0DFE1;
+    background-color: #b87af7;
 }
 .bikes-container{
     display: grid;

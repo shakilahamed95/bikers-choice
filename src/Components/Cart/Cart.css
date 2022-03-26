@@ -1,4 +1,15 @@
 .cart{
     position: sticky;
     top: 0;
+    color: rgb(8, 53, 138)
+}
+.cart-btn{
+    padding: 10px;
+    color: white;
+    background-color: #076fa3;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.cart-btn:hover {
+    background-color: #01304bb2;
 }

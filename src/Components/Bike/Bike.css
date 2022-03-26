@@ -8,6 +8,7 @@
     border: 2px solid black;
     border-radius: 8px;
     position: relative;
+    color: rgb(8, 53, 138)
 }
 .btn{
     width: 100%;
@@ -17,7 +18,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #076fa3;
+}
+.btn:hover{
+    background-color: #01304bb2;
 }
 .btn-text{
     margin-right: 15px;
+    color: white;
 }

@@ -13,8 +13,8 @@ const Cart = ({ cart, resetCart, choseRandom }) => {
                 )))
             }
 
-            <button onClick={choseRandom}>Select one for me</button> <br />
-            <button onClick={resetCart}>Chose Again</button>
+            <button className='cart-btn' onClick={choseRandom}>Select one for me</button> <br />
+            <button className='cart-btn' onClick={resetCart}>Chose Again</button>
         </div>
     );
 };
