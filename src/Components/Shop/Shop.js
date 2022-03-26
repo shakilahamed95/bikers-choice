@@ -8,8 +8,14 @@ const Shop = () => {
     const [cart, setcart] = useState([])
     const handleAddToCart = (bike) => {
         if (cart.length <= 3) {
-            const newCart = [...cart, bike]
-            setcart(newCart)
+            if (cart.includes(bike)) {
+                const newCart = [...cart]
+                setcart(newCart)
+            }
+            else {
+                const newCart = [...cart, bike]
+                setcart(newCart)
+            }
         }
         else {
             setcart(cart);
