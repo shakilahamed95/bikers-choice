@@ -1,5 +1,11 @@
 .App {
+  margin: 0px;
+  padding: 0px;
   text-align: center;
-  background-color: #b87af7;
+  background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }
 

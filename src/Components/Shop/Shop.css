@@ -1,10 +1,30 @@
 .shop-container{
     display: grid;
     grid-template-columns: 5fr 1fr;
-    background-color: #b87af7;
+    background-color: white;
+    overflow-x: hidden;
 }
 .bikes-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    gap: 10px;
+}
+@media screen and (max-width:576px){
+    .shop-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bikes-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media only screen and (min-width:577px) and (max-width:992px){
+    .shop-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .bikes-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
 }
