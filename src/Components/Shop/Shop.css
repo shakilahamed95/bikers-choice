@@ -11,7 +11,7 @@
 }
 @media screen and (max-width:576px){
     .shop-container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1fr 1fr);
     }
     .bikes-container{
         grid-template-columns: repeat(1,1fr);
