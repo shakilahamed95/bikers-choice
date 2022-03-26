@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = ({ cart, resetCart, choseRandom }) => {
@@ -16,8 +15,8 @@ const Cart = ({ cart, resetCart, choseRandom }) => {
             <button className='cart-btn' onClick={choseRandom}>Select one for me</button> <br />
             <button className='cart-btn' onClick={resetCart}>Chose Again</button>
         </div>
-    );
-};
+    )
+}
 
 
 export default Cart;
