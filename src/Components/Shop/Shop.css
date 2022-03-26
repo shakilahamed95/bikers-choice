@@ -3,6 +3,7 @@
     grid-template-columns: 5fr 1fr;
     background-color: white;
     overflow-x: hidden;
+    margin-bottom: 3000 px;
 }
 .bikes-container{
     display: grid;

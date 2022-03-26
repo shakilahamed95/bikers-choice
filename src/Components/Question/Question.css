@@ -1,0 +1,9 @@
+.questions-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.question-container{
+    text-align: start;
+    border: 1px solid black;
+}
